@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* css common code start */
+:root {
+  --font-family: "Poppins", sans-serif;
+  --second-family: "PT Sans", sans-serif;
+  --text-color:#353535;
+  --primary-color: #fc0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+
+}
+ul, ol{
+    list-style: none;
+}
+body{
+    font-family: var(--font-family);
+}
+
+.btn{
+  border-radius: 20px;
+  font-family: var(--font-family);
+font-weight: 600;
+font-size: 20px;
+line-height: 180%;
+color: #fff;
+padding: 16px 45px;
+background: var(--primary-color);
+border: none;
+margin-bottom: 66px;
+}
+
+.btn span{
+    line-height: 150%;
+    align-items: center;
+    padding-bottom: 0;
+}
+.btn:hover{
+    background: var(--primary-color);
+}
+
+.btn.btn-outline{
+    border: 1px solid #000;
+border-radius: 20px;
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 20px;
+line-height: 180%;
+color: #353535;
+background: transparent;
+
+}
+/* css common code start */
+/* navber start */
+#mymanu ul li a{
+    font-family: var(--font-family);
+    padding: 0 20px;
+font-weight: 500;
+font-size: 15px;
+line-height: 200%;
+color: #353535;
+transition: 0.45s;
+}
+#mymanu ul li a.active,
+#mymanu ul li a:hover{
+    border-bottom: 1px solid #353535;
+}
+/* navber end */
+
+
+
+/* banner section start  */
+
+#banner{
+    padding: 55px 0 140px;
+}
+
+
+#banner .bannerText h5{
+font-weight: 400;
+font-size: 24px;
+color: var(--text-color);
+}
+#banner .bannerText h2{
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 64px;
+color: var(--text-color);
+}
+#banner .bannerText p{
+font-weight: 400;
+font-size: 20px;
+line-height: 180%;
+color: var(--text-color);
+}
+
+
+#banner .follow{
+    display: inline-block;
+font-weight: 500;
+font-size: 22px;
+line-height: 180%;
+color: var(--text-color);
+}
+
+#banner .brand{
+border-radius: 100%;
+padding: 0 8px;
+width: 40px;
+height: 40px;
+color: #000;
+}
+/* banner section end */

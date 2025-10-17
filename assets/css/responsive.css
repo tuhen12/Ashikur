@@ -1,0 +1,41 @@
+@media (max-width: 991px) { 
+     .navbar-expand-lg {
+       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }
+
+ #banner {
+    padding: 30px 0;
+}
+
+#banner .bannerText h5 {
+    font-size: 16px;
+}
+
+#banner .bannerText h2 {
+    font-size: 50px;
+}
+
+#banner .bannerText p {
+    font-size: 14px;
+    line-height: 150%;
+}
+.btn {
+    border-radius: 15px;
+    font-size: 14px;
+    padding: 10px 30px;
+    margin-bottom: 30px;
+    
+}
+.btn.btn-outline {
+  font-size: 14px;
+  border-radius: 15px;
+ padding: 7px 15px;
+}
+#banner .follow {
+    display: block;
+    text-align: center;
+}
+#banner .brand{
+  margin-left: 20px;
+}
+ }
